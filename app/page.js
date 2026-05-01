@@ -241,8 +241,8 @@ Be specific with numbers. Use Rs. for currency. Bullet points. Practical advice.
             </div>
             <div style={{ background: "#111827", borderRadius: 10, padding: "14px 16px", textAlign: "left", marginBottom: 12 }}>
               {[
-                { k: "WIFI_SSID",      v: "mrun" },
-                { k: "WIFI_PASSWORD",  v: "123456789" },
+                { k: "WIFI_SSID",      v: "piyyaa 5g" },
+                { k: "WIFI_PASSWORD",  v: "sweethome24" },
                 { k: "FIREBASE_HOST",  v: "smart-energy-meter-474c1-default-rtdb.asia-southeast1.firebasedatabase.app" },
                 { k: "FIREBASE_AUTH",  v: "KcrNrY94CZeUeOE98JlNpTXwMMsG5HnvJQ5TVKuo" },
               ].map(item => (
