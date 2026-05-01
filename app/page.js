@@ -241,10 +241,10 @@ Be specific with numbers. Use Rs. for currency. Bullet points. Practical advice.
             </div>
             <div style={{ background: "#111827", borderRadius: 10, padding: "14px 16px", textAlign: "left", marginBottom: 12 }}>
               {[
-                { k: "WIFI_SSID",      v: "Your home WiFi name" },
-                { k: "WIFI_PASSWORD",  v: "Your WiFi password" },
-                { k: "FIREBASE_HOST",  v: "From Firebase console (no https://)" },
-                { k: "FIREBASE_AUTH",  v: "Database secret key" },
+                { k: "WIFI_SSID",      v: "mrun" },
+                { k: "WIFI_PASSWORD",  v: "123456789" },
+                { k: "FIREBASE_HOST",  v: "smart-energy-meter-474c1-default-rtdb.asia-southeast1.firebasedatabase.app" },
+                { k: "FIREBASE_AUTH",  v: "KcrNrY94CZeUeOE98JlNpTXwMMsG5HnvJQ5TVKuo" },
               ].map(item => (
                 <div key={item.k} style={{ marginBottom: 7, display: "flex", gap: 8 }}>
                   <span style={{ fontSize: 10, fontWeight: 700, color: "#00d4ff", minWidth: 145, fontFamily: "monospace" }}>{item.k}</span>
